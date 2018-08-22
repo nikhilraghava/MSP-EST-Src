@@ -5,9 +5,7 @@
 #define LEDS          0x81
 
 void main(void) {
-  unsigned char inpt;
-  unsigned char blink = 0xFF;
-  unsigned char ledStrip = 0x01;
+  unsigned char inpt, blink = 0xFF, ledStrip = 0x01;
 
   while(1) {
     inpt = inport(DIGITALSENSOR) & 0x04
