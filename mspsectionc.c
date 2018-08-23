@@ -6,6 +6,7 @@
 
 void main(void) {
   unsigned char inpt, blink = 0xFF, ledStrip = 0x01;
+  ae_init();
 
   while(1) {
     inpt = inport(DIGITALSENSOR) & 0x04
