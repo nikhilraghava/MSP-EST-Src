@@ -8,7 +8,7 @@ Source code for programming questions asked during the Microprocessor Systems an
 
 ## Question 2 (C)
 
-"Write a 'C' polling program such that when the sensor signal is at level HIGH, the LEDs will be flashing, that is turning on and then off with a delaay of 300 mSec. If the sensor signal is at level LOW, shift the LEDs from the LSB to the MSB, one LED at a time with a delay 500 mSec."
+"Write a 'C' polling program such that when the sensor signal is at level HIGH, the LEDs will be flashing, that is turning on and then off with a delay of 300 mSec. If the sensor signal is at level LOW, shift the LEDs from the LSB to the MSB, one LED at a time with a delay 500 mSec."
 
 # Author
 
